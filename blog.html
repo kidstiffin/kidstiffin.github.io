@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog — Kids Tiffin</title>
+  <meta name="description" content="Kids Tiffin blog — tips on kids nutrition, healthy snacking, recipes, and updates from our home kitchen. Order: 0304-5825600" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="images/logo.jpeg" type="image/jpeg" />
+</head>
+<body>
+
+  <div class="top-bar">
+    📞 Order Now: <a href="tel:03045825600">0304-5825600</a> &nbsp;|&nbsp; 🚚 Homemade · Hygienic · Delivered Fresh
+  </div>
+
+  <nav>
+    <a href="index.html" class="nav-logo">
+      <img src="images/logo.jpeg" alt="Kids Tiffin Logo" />
+    </a>
+    <button class="hamburger" onclick="toggleMenu()" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="products.html">Menu & Prices</a></li>
+      <li><a href="reviews.html">Reviews</a></li>
+      <li><a href="blog.html" class="active">Blog</a></li>
+      <li><a href="tel:03045825600" class="nav-order-btn">📞 Order</a></li>
+    </ul>
+  </nav>
+
+  <div class="page-hero">
+    <h1>📝 Our Blog</h1>
+    <p>Nutrition tips, snack ideas, and updates straight from our home kitchen.</p>
+  </div>
+
+  <section class="section">
+    <div class="section-inner">
+      <h2 class="section-title">Latest Posts</h2>
+      <div class="divider"></div>
+      <div class="blog-grid">
+
+        <div class="blog-card">
+          <div class="blog-thumb">🍗</div>
+          <div class="blog-body">
+            <span class="blog-tag">Nutrition</span>
+            <h3>Why Protein Matters for Growing Kids</h3>
+            <p>Chicken is one of the best protein sources for children. Our nuggets, kababs, and patties ensure your kids get the protein they need — without the fuss of cooking from scratch every day.</p>
+            <p class="blog-date">June 2026</p>
+          </div>
+        </div>
+
+        <div class="blog-card">
+          <div class="blog-thumb">❄️</div>
+          <div class="blog-body">
+            <span class="blog-tag">Tips</span>
+            <h3>How to Store Frozen Food the Right Way</h3>
+            <p>Proper freezing keeps food fresh and safe. We share our best practices — from the right freezer temperature to packaging tips — so your Kids Tiffin items stay perfect until needed.</p>
+            <p class="blog-date">June 2026</p>
+          </div>
+        </div>
+
+        <div class="blog-card">
+          <div class="blog-thumb">🧼</div>
+          <div class="blog-body">
+            <span class="blog-tag">Hygiene</span>
+            <h3>Our Hygiene Promise — What Happens in Our Kitchen</h3>
+            <p>Hygiene is our number one priority. In this post, we walk you through our kitchen preparation process — from ingredient sourcing to freezing — so you can order with complete confidence.</p>
+            <p class="blog-date">May 2026</p>
+          </div>
+        </div>
+
+        <div class="blog-card">
+          <div class="blog-thumb">🥙</div>
+          <div class="blog-body">
+            <span class="blog-tag">Recipes</span>
+            <h3>5 Quick Meal Ideas Using Our Kababs</h3>
+            <p>From Shami Kabab wraps to Seekh Kabab rice bowls — here are five delicious, 10-minute meal ideas the whole family will love, built around Kids Tiffin kababs.</p>
+            <p class="blog-date">May 2026</p>
+          </div>
+        </div>
+
+        <div class="blog-card">
+          <div class="blog-thumb">👧</div>
+          <div class="blog-body">
+            <span class="blog-tag">Kids</span>
+            <h3>Picky Eaters? Here's What Actually Works</h3>
+            <p>Dealing with a child who refuses to eat? Shape, texture, and presentation matter more than flavour. We share tricks that work — and how our fun-shaped Drum Sticks became a game changer!</p>
+            <p class="blog-date">April 2026</p>
+          </div>
+        </div>
+
+        <div class="blog-card">
+          <div class="blog-thumb">🆕</div>
+          <div class="blog-body">
+            <span class="blog-tag">Update</span>
+            <h3>New Item: Donuts Are Here!</h3>
+            <p>By popular demand, we've added homemade Donuts to the menu! Soft, fluffy, and available fresh-frozen so you always have a treat ready. Call us to add them to your next order.</p>
+            <p class="blog-date">April 2026</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="order-cta">
+    <h2>Stock Up the Freezer Today!</h2>
+    <p>Fresh, hygienic, homemade — ready when you are.</p>
+    <div class="phone-big"><a href="tel:03045825600">📞 0304-5825600</a></div>
+  </section>
+
+  <footer>
+    <img src="images/logo.jpeg" alt="Kids Tiffin" class="footer-logo" />
+    <p><strong style="color:#fff;">Kids Tiffin</strong> — Homemade Frozen Snacks</p>
+    <p style="margin-top:6px;">
+      <a href="index.html">Home</a> &nbsp;|&nbsp;
+      <a href="products.html">Menu</a> &nbsp;|&nbsp;
+      <a href="reviews.html">Reviews</a> &nbsp;|&nbsp;
+      <a href="blog.html">Blog</a> &nbsp;|&nbsp;
+      <a href="tel:03045825600">0304-5825600</a>
+    </p>
+    <p style="margin-top:14px;opacity:0.55;font-size:0.8rem;">© 2026 Kids Tiffin. Made with ❤️ at home.</p>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById('navLinks').classList.toggle('open');
+    }
+  </script>
+</body>
+</html>
